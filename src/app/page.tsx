@@ -8,7 +8,7 @@ const HomePage = () => {
     <div className="flex flex-col min-h-screen text-foreground overflow-hidden">
       <section className="relative z-10 py-24 flex-grow">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start max-w-7xl mx-auto">
             {/* MAIN CONTENT */}
             <div className="space-y-8 relative text-center flex flex-col items-center">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
@@ -100,12 +100,12 @@ const HomePage = () => {
                 <div className="absolute bottom-0 right-0 w-16 h-16 border-r-2 border-b-2 border-border" />
               </div>
 
-              <div className="relative aspect-square max-w-lg mx-auto">
-                <div className="relative overflow-hidden rounded-lg bg-cyber-black">
+              <div className="relative w-full max-w-lg mx-auto h-full min-h-[600px]">
+                <div className="relative overflow-hidden rounded-lg bg-cyber-black h-full">
                   <img
                     src="/hero-ai.png"
                     alt="AI Study Assistant"
-                    className="size-full object-cover object-center"
+                    className="size-full object-cover object-top"
                   />
 
                   <div className="absolute inset-0 bg-[linear-gradient(transparent_0%,transparent_calc(50%-1px),var(--cyber-glow-primary)_50%,transparent_calc(50%+1px),transparent_100%)] bg-[length:100%_8px] animate-scanline pointer-events-none" />
