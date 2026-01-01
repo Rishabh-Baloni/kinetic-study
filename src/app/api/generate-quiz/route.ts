@@ -66,7 +66,7 @@ Where correctAnswer is the index (0-3) of the correct option.`;
     }
 
     // Validate each question
-    quizData.questions.forEach((q: any, idx: number) => {
+    quizData.questions.forEach((q: { question?: string; options?: unknown; correctAnswer?: unknown }, idx: number) => {
       if (
         !q.question ||
         !Array.isArray(q.options) ||
@@ -80,10 +80,10 @@ Where correctAnswer is the index (0-3) of the correct option.`;
     });
 
     return NextResponse.json(quizData);
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error("Quiz generation error:", error);
     return NextResponse.json(
-      { error: error.message || "Failed to generate quiz" },
+      { error: error instanceof Error ? error.message : "Failed to generate quiz" },
       { status: 500 }
     );
   }

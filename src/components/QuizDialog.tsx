@@ -65,8 +65,8 @@ export default function QuizDialog({
 
       const data = await response.json();
       setQuestions(data.questions);
-    } catch (err: any) {
-      setError(err.message);
+    } catch (err: unknown) {
+      setError(err instanceof Error ? err.message : "Failed to load quiz");
     } finally {
       setLoading(false);
     }
