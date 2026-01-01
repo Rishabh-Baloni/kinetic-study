@@ -122,7 +122,7 @@ const ProfilePage = () => {
   const getTaskIcon = (type: string) => {
     switch (type) {
       case "read": return "▣";
-      case "watch": return "▶";
+      case "watch": return "▶︎";
       case "practice": return "⟨⟩";
       case "recall": return "◈";
       case "interview": return "◉";

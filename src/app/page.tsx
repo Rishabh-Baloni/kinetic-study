@@ -69,23 +69,23 @@ const HomePage = () => {
               {/* FEATURES */}
               <div className="grid grid-cols-2 md:grid-cols-5 gap-4 pt-4 w-full max-w-2xl">
                 <div className="flex flex-col items-center p-3 bg-card/50 backdrop-blur-sm border border-border rounded-lg">
-                  <span className="text-2xl mb-1">▣</span>
+                  <span className="text-2xl mb-1 text-white">▣</span>
                   <span className="text-xs text-muted-foreground">Read</span>
                 </div>
                 <div className="flex flex-col items-center p-3 bg-card/50 backdrop-blur-sm border border-border rounded-lg">
-                  <span className="text-2xl mb-1">▶</span>
+                  <span className="text-2xl mb-1 text-white font-mono">▶︎</span>
                   <span className="text-xs text-muted-foreground">Watch</span>
                 </div>
                 <div className="flex flex-col items-center p-3 bg-card/50 backdrop-blur-sm border border-border rounded-lg">
-                  <span className="text-2xl mb-1">⟨⟩</span>
+                  <span className="text-2xl mb-1 text-white">⟨⟩</span>
                   <span className="text-xs text-muted-foreground">Practice</span>
                 </div>
                 <div className="flex flex-col items-center p-3 bg-card/50 backdrop-blur-sm border border-border rounded-lg">
-                  <span className="text-2xl mb-1">◈</span>
+                  <span className="text-2xl mb-1 text-white">◈</span>
                   <span className="text-xs text-muted-foreground">Recall</span>
                 </div>
                 <div className="flex flex-col items-center p-3 bg-card/50 backdrop-blur-sm border border-border rounded-lg col-span-2 md:col-span-1">
-                  <span className="text-2xl mb-1">◉</span>
+                  <span className="text-2xl mb-1 text-white">◉</span>
                   <span className="text-xs text-muted-foreground">Interview</span>
                 </div>
               </div>
