@@ -16,6 +16,8 @@ node_modules/
 # Misc
 .DS_Store
 *.pem
+IMPLEMENTATION_COMPLETE.md
+GITIGNORE_IMPLEMENTATION.md
 
 # Debug
 npm-debug.log*
