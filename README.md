@@ -1,4 +1,6 @@
-<h1 align="center">📚 Kinetic Study - Your AI Study Partner 🤖</h1>
+<h1 align="center">📚 Kinetic Study - BTech CS Study Tool 🤖</h1>
+
+![Demo App](/public/screenshot-for-readme.png)
 
 <p align="center">
   An AI-powered study application that generates personalized study sessions, tasks, and quizzes based on your BTech CS subjects, goals, and learning preferences.
@@ -123,4 +125,4 @@ Built by [Rishabh Baloni](https://portfolio-three-azure-83.vercel.app/)
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT LICENSE](LICENSE)
