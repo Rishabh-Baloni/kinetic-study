@@ -40,7 +40,7 @@ next-env.d.ts
 
 # Convex
 .convex/
-convex/_generated/
+# convex/_generated/ - COMMENTED OUT: Needed for Vercel deployment
 
 # Clerk
 /.clerk/
